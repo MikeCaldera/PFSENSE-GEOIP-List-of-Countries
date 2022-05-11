@@ -3,6 +3,7 @@
 - 🌱 I’m currently learning everything again
 - 💞️ I’m looking to collaborate on linux security
 - 📫 How to reach me mikecaldera at yahoo
+- 😺 paypal Donation mikecaldera at yahoo . com
 
 Use this code to save time by adding a alternative GEO IP lIST other than PFBlocker. This is absolutely free! However, some people don't want their data sold to third parties so here's an alternative freeware list. Big thanks to  [IPdeny](https://www.ipdeny.com/ipblocks/
 )
