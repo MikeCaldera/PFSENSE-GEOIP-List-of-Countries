@@ -8,7 +8,7 @@ Use this code to save time by adding a alternative GEO IP lIST other than PFBloc
 
 This was a PITA time consuming task to do. I could of wrote a bot in the same time it took but it's done now. Now you will always get the lastests IP addresses. Don't pull this request multiple times daily but rather weekly. This code could be used to block traffic or allow traffic to those countries listed above. All I did was save you hours of time. You must add these rules as need into your firewall rules. Remember, by default PFSense blocks all traffic into the WAN so you could just say Allow In to USA only. Whatever floats your boat. Just use Drop for Wan and Reject for Lan. 
 
-WARNING - BACKUP your firewall in pfsense first before you do anything!! You should always have backups saved locally so don't blame me if you Bork your PFsense.Ok so now that's out of the way 
+WARNING - BACKUP your firewall in pfsense first before you do anything!! You should always have backups saved locally so don't blame me if you Bork your PFsense. Also,any Firewall Aliases URLs lists will be overwritten... unless you copy and paste this code along with your existing Firewall Aliases URLs. Ok so now that's out of the way
 
 1) in the web gui go to-> Diagnostics/Backup & Restore/Backup & Restore then download configuration as XML save as old firmware.
 
