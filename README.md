@@ -4,7 +4,6 @@
 - 💞️ I’m looking to collaborate on linux security
 - 📫 How to reach me mikecaldera at yahoo
 
-<!---
 Use this code to save time by adding a alternative GEO IP lIST other than PFBlocker. This is absolutely free! However, some people don't want their data sold to third parties so here's an alternative freeware list. Big thanks to IPdeny https://www.ipdeny.com/ipblocks/
 
 This was a PITA time consuming task to do. I could of wrote a bot in the same time it took but it's done now. Now you will always get the lastests IP addresses. Don't pull this request multiple times daily but rather weekly. This code could be used to block traffic or allow traffic to those countries listed above. All I did was save you hours of time. You must add these rules as need into your firewall rules. Remember, by default PFSense blocks all traffic into the WAN so you could just say Allow In to USA only. Whatever floats your boat. Just use Drop for Wan and Reject for Lan. 
@@ -22,4 +21,4 @@ WARNING - BACKUP your firewall in pfsense first before you do anything!! You sho
 5) The URL rules are NOT ACTIVE until you make it active by adding into your WAN to ALLOW IN lets say USA is allowed in but everything else we wont respond. LAN rules you could Block the following countries in Both directions both in and out. It's up to you. Hopefully this helped you save time and money. 
 
 
---!>
+
