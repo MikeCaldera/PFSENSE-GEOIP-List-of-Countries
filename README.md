@@ -12,7 +12,7 @@ WARNING - BACKUP your firewall in pfsense first before you do anything!! You sho
 
 1) in the web gui go to-> Diagnostics/Backup & Restore/Backup & Restore then download configuration as XML save as old firmware.
 
-2) Make a new copy but this time call it new firmware but make sure its not the same name. You should have two files.One is the orginal untouched backup xml. The new xml file we are going to insert this code into the exact placement and save it.
+2) **Make a new copy but this time call it new firmware but make sure its not the same name. You should have two files. One is the orginal untouched backup xml. The new xml file we are going to insert this code into the exact placement and save it.**
 
 3) Double check your new code and make absolutely certain you placed it in the correct spot. Save it then upload it to your pfsense.
 
