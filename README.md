@@ -17,7 +17,7 @@ WARNING - BACKUP your firewall in pfsense first before you do anything!! You sho
 
 3) Double check your new code and make absolutely certain you placed it in the correct spot. see location to paste in this image ("https://github.com/MikeCaldera/PFSENSE-GEOIP-List-of-Countries/blob/main/paste%20here.png") Save it then upload it to your pfsense. 
 
-4) Once pfsense takes the upload go into Firewall/Aliases/URLs and hopefully you'll have the entire geolist. You may have to reboot/reload rules pfsense for changes to take effect.
+4) Once pfsense takes the upload go into Firewall/Aliases/URLs and hopefully you'll have the entire geolist. You may have to reboot/reload rules pfsense for changes to take effect. https://github.com/MikeCaldera/PFSENSE-GEOIP-List-of-Countries/blob/main/sample_URL_Aliase_Countries_Block_List.png
 
 5) The URL rules are NOT ACTIVE until you make it active by adding into your WAN to ALLOW IN lets say USA is allowed in but everything else we wont respond. LAN rules you could Block the following countries in Both directions both in and out. It's up to you. Hopefully this helped you save time and money. 
 
