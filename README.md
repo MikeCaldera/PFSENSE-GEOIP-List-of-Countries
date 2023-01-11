@@ -7,7 +7,7 @@
 
 Use this code to save time by adding a alternative GEO IP LIST other than PFBlocker. This is absolutely free! However, some people don't want their data sold to third parties so here's an alternative freeware list. Big thanks to  [IPdeny](https://www.ipdeny.com/ipblocks/
 )
-This was a PITA time consuming task to do. I could of wrote a bot in the same time it took but it's done now. Now you will always get the lastests IP addresses. Don't pull this request multiple times daily but rather weekly. This code could be used to block traffic or allow traffic to those countries listed above. All I did was save you hours of time. You must add these rules as need into your firewall rules see image (paste here.png). Remember, by default PFSense blocks all traffic into the WAN so you could just say Allow In to USA only. Whatever floats your boat. Just use Drop for Wan and Reject for Lan. 
+This was a PITA time consuming task to do. I could of wrote a bot in the same time it took but it's done now. Now you will always get the lastests IP addresses. Don't pull this request multiple times daily but rather weekly. This code could be used to block traffic or allow traffic to those countries listed above. All I did was save you hours of time. You must add these rules as need into your firewall rules see image (https://github.com/MikeCaldera/PFSENSE-GEOIP-List-of-Countries/blob/main/paste%20here.png). Remember, by default PFSense blocks all traffic into the WAN so you could just say Allow In to USA only. Whatever floats your boat. Just use Drop for Wan and Reject for Lan. 
 
 WARNING - BACKUP your firewall in pfsense first before you do anything!! You should always have backups saved locally so don't blame me if you Bork your PFsense. Also,any Firewall Aliases URLs lists will be overwritten... unless you copy and paste this code along with your existing Firewall Aliases URLs. Ok so now that's out of the way
 
@@ -15,7 +15,7 @@ WARNING - BACKUP your firewall in pfsense first before you do anything!! You sho
 
 2) **Make a new copy but this time call it new firmware but make sure its not the same name. You should have two files. One is the orginal untouched backup xml. The new xml file we are going to insert this code into the exact placement and save it.**
 
-3) Double check your new code and make absolutely certain you placed it in the correct spot. see location to paste in this image ("paste here.png") Save it then upload it to your pfsense. 
+3) Double check your new code and make absolutely certain you placed it in the correct spot. see location to paste in this image ("https://github.com/MikeCaldera/PFSENSE-GEOIP-List-of-Countries/blob/main/paste%20here.png") Save it then upload it to your pfsense. 
 
 4) Once pfsense takes the upload go into Firewall/Aliases/URLs and hopefully you'll have the entire geolist. You may have to reboot/reload rules pfsense for changes to take effect.
 
