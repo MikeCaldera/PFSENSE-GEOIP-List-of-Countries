@@ -21,5 +21,16 @@ WARNING - BACKUP your firewall in pfsense first before you do anything!! You sho
 
 5) The URL rules are NOT ACTIVE until you make it active by adding into your WAN to ALLOW IN lets say USA is allowed in but everything else we wont respond. LAN rules you could Block the following countries in Both directions both in and out. It's up to you. Hopefully this helped you save time and money. 
 
+https://www.ipdeny.com/ipblocks/data/aggregated/
 
+UPDATE JAN 11, 2023 - For large numbers of entries, use a URL Table type alias which is capable of handling larger lists.
+IPDENY now has consolidated the list of IPS so that your router won't skip these ips due to the larger size. No need to download these files directly on your router unless you have large RAM installed. You will also have to adjust the     System/Advanced/Firewall & NAT -Packet Processing
+"Firewall Maximum Table Entries" to a much larger number than your firewall can handle. I use 1.6 million with 32 gigs Ram
+
+https://www.ipdeny.com/ipblocks/data/aggregated/us-aggregated.zone
+
+Example: the USA list had over 64,000 cidr entries UNITED STATES (US) [download us.zone] Size: 985.86 KB (64080 IP blocks)
+do not use [download us.zone] instead use [download us-aggregrated.zone] (23090 IP blocks)
+
+Using the AGGREGATED ZONE has a better performance and less slippage of IPS creeping through your firewall tables. 
 
