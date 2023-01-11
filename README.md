@@ -23,7 +23,9 @@ WARNING - BACKUP your firewall in pfsense first before you do anything!! You sho
 
 https://www.ipdeny.com/ipblocks/data/aggregated/
 
-UPDATE JAN 11, 2023 - For large numbers of entries, use a URL Table type alias which is capable of handling larger lists.
+<------------------------------------------------------------------------------------------------------------------------->
+UPDATE JAN 11, 2023 - For large numbers of entries, use a "URL Table type alias" which is capable of handling larger lists. Cange each country list to this type.
+
 IPDENY now has consolidated the list of IPS so that your router won't skip these ips due to the larger size. No need to download these files directly on your router unless you have large RAM installed. You will also have to adjust the     System/Advanced/Firewall & NAT -Packet Processing
 "Firewall Maximum Table Entries" to a much larger number than your firewall can handle. I use 1.6 million with 32 gigs Ram
 
